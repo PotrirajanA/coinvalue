@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Sofia&display=swap');
+
+body{
+    font-family: "Google Sans", sans-serif;
+    /* overflow: hidden; */
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+button{
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
