@@ -1,16 +1,192 @@
-# React + Vite
+# 🚀 CoinValue
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern cryptocurrency tracking web application built with **React** that provides real-time cryptocurrency market data, price charts, and detailed coin information using the **CoinGecko API**.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://coinvalue-mocha.vercel.app/
 
-## React Compiler
+## 📂 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 https://github.com/PotrirajanA/coinvalue
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+# 📸 Screenshots
+
+## 🏠 Home Page
+
+<img width="1346" height="767" alt="Screenshot 2026-07-20 115531" src="https://github.com/user-attachments/assets/3dd54c94-2fa9-429c-8d32-9ecdc7c7e3fd" />
+
+
+Features:
+- Search cryptocurrencies
+- Live market prices
+- Market capitalization
+- 24-hour price change
+- Currency selector
+
+---
+
+## 📈 Coin Details
+
+<img width="1346" height="754" alt="Screenshot 2026-07-20 115557" src="https://github.com/user-attachments/assets/f3906321-974f-4e6b-8175-c19a1207ef3e" />
+
+
+Features:
+- Interactive price chart
+- Market rank
+- Current price
+- Market cap
+- 24-hour high & low
+- Detailed cryptocurrency information
+
+---
+
+# ✨ Features
+
+- 📈 Live cryptocurrency prices
+- 🔍 Search cryptocurrencies
+- 📊 Interactive price chart
+- 💰 Market capitalization
+- 📉 24H price change
+- 🌍 Multiple currency support
+- 📱 Fully responsive design
+- ⚡ Fast and lightweight
+- 🔄 Real-time data using CoinGecko API
+
+---
+
+# 🛠️ Tech Stack
+
+- React.js
+- React Router DOM
+- Context API
+- JavaScript (ES6+)
+- CSS3
+- CoinGecko API
+- Vercel
+
+---
+
+# 📁 Folder Structure
+
+```text
+coinvalue/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── context/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+---
+
+# 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/PotrirajanA/coinvalue.git
+```
+
+Go to the project folder
+
+```bash
+cd coinvalue
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the project
+
+```bash
+npm run dev
+```
+
+Open
+
+```
+http://localhost:5173
+```
+
+---
+
+# 🔑 Environment Variables
+
+Create a `.env` file.
+
+```env
+VITE_COINGECKO_API_KEY=YOUR_API_KEY
+```
+
+---
+
+# 📡 API
+
+This project uses the **CoinGecko API**.
+
+https://www.coingecko.com/en/api
+
+---
+
+# 🎯 Future Improvements
+
+- ⭐ Favorite Coins
+- 🌙 Dark Mode
+- 📊 Multiple Chart Timeframes
+- 🔔 Price Alerts
+- 📈 Trending Coins
+- 💼 Portfolio Tracker
+- ⚡ Skeleton Loading
+- 🧪 Unit Testing
+
+---
+
+# 💡 Learning Outcomes
+
+Through this project I learned:
+
+- React Component Architecture
+- React Router
+- Context API
+- API Integration
+- State Management
+- Responsive Web Design
+- Asynchronous JavaScript
+- Dynamic Routing
+- Chart Integration
+- Deploying applications using Vercel
+
+---
+
+# 👨‍💻 Author
+
+**Potrirajan A**
+
+GitHub: https://github.com/PotrirajanA
+
+---
+
+# ⭐ Show Your Support
+
+If you like this project, give it a ⭐ on GitHub.
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
