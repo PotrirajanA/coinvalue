@@ -1,6 +1,5 @@
 import React, { useContext } from 'react'
 import './Navbar.css'
-import { ArrowUpRightIcon } from 'lucide-react'
 import { coinContext } from '../../context/CoinContext'
 import {Link} from "react-router-dom";
 

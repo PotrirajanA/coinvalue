@@ -1,11 +1,16 @@
 .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10%;
+    padding: 10px 10%;
     color:#ddd;
-    border-bottom: 2px solid #a6a6a62d;
-
+    border-bottom: 1px solid #a6a6a62d;
+    background: linear-gradient(rgba(31, 0, 98, 0.832),rgba(3, 0, 54, 0.92));
+    z-index: 1000;
 }
 .navbar .logo{
     font-size: 24px;
