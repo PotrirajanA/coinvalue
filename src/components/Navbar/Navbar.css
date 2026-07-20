@@ -7,13 +7,6 @@
     border-bottom: 2px solid #a6a6a62d;
 
 }
-.navbar ul{
-    display: flex;
-    gap: 25px;
-}
-.navbar ul li{
-    cursor: pointer;
-}
 .navbar .logo{
     font-size: 24px;
     font-family: "Sofia", cursive;
@@ -23,11 +16,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.navbar .nav-right{
-    display: flex;
-    align-items: center;
-    gap: max(1vw, 12px);
-}
+
 .navbar .nav-right select{
     padding: 5px 8px;
     border-radius: 6px;
@@ -39,29 +28,10 @@
     background-color: #09005c;
     color: white;
 }
-.navbar .nav-right button{
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    padding: 8px 15px;
-    font-size: 16px;
-    color: #393939;
-    background: #fff;
-    border: 1px solid #fff;
-}
-.navbar .nav-right button:hover{
-    background: transparent;
-    color: #fff;
-}
 
 @media (max-width:900px){
     .navbar{
         padding: 20px 8%;
-    }
-    .navbar .nav-right button{
-        gap: 2px;
-        padding: 6px 12px;
-        font-size: 14px;
     }
 }
 
@@ -69,7 +39,4 @@
     .navbar{
         padding: 20px 5%;
     }
-    .navbar ul{
-    display: none;
-}
 }
